@@ -19,7 +19,7 @@ class ExText extends StatelessWidget {
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text"),
+              child: Text("文字示例 Text Sample"),
             ),
             Label("自动换行(softWrap)"),
             SubLabel("softWrap: true"),
@@ -27,7 +27,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 60.0,
               child: Text(
-                "Hello Text Hello Text Hello Text Hello111 Text Hello Text Hello Text Hello Text Hello Text",
+                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample",
                 softWrap: true,
               ),
             ),
@@ -36,7 +36,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 60.0,
               child: Text(
-                "Hello Text Hello Text Hello Text Hello111 Text Hello Text Hello Text Hello Text Hello Text",
+                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample",
                 softWrap: false,
               ),
             ),
@@ -45,32 +45,32 @@ class ExText extends StatelessWidget {
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textAlign: TextAlign.left),
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.left),
             ),
             SubLabel("TextAlign.center"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textAlign: TextAlign.center),
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.center),
             ),
             SubLabel("TextAlign.right"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textAlign: TextAlign.right),
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.right),
             ),
             SubLabel("TextAlign.start"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textAlign: TextAlign.start),
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.start),
             ),
             SubLabel("TextAlign.justify"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 60.0,
               child: Text(
-                "Hello Text Hello Text Hello Text Hello111 Text Hello Text Hello Text Hello Text Hello Text \r\nHello Text",
+                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample Hello111 Text 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample \r\n文字示例 Text Sample",
                 textAlign: TextAlign.justify,
               ),
             ),
@@ -78,39 +78,39 @@ class ExText extends StatelessWidget {
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textAlign: TextAlign.end),
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.end),
             ),
             Label("文字方向(textDirection)"),
             SubLabel("TextDirection.ltr"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textDirection: TextDirection.ltr),
+              child: Text("文字示例 Text Sample", textDirection: TextDirection.ltr),
             ),
             SubLabel("TextDirection.rtl"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textDirection: TextDirection.rtl),
+              child: Text("文字示例 Text Sample", textDirection: TextDirection.rtl),
             ),
             Label("缩放(textScaleFactor)"),
             SubLabel("1.0"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textScaleFactor: 1.0),
+              child: Text("文字示例 Text Sample", textScaleFactor: 1.0),
             ),
             SubLabel("1.5"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textScaleFactor: 1.5),
+              child: Text("文字示例 Text Sample", textScaleFactor: 1.5),
             ),
             SubLabel("0.5"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
-              child: Text("Hello Text", textScaleFactor: 0.5),
+              child: Text("文字示例 Text Sample", textScaleFactor: 0.5),
             ),
             Label("最大行数(maxLines)"),
             SubLabel("1"),
@@ -118,7 +118,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 60.0,
               child: Text(
-                "Hello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\n",
+                "文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n",
                 maxLines: 1,
               ),
             ),
@@ -127,7 +127,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 60.0,
               child: Text(
-                "Hello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\nHello Text\r\n",
+                "文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n文字示例 Text Sample\r\n",
                 maxLines: 3,
               ),
             ),
@@ -169,7 +169,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Colors.red),
               ),
             ),
@@ -178,7 +178,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Colors.red.withOpacity(0.5)),
               ),
             ),
@@ -187,7 +187,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Color(0xFF42A5F5)),
               ),
             ),
@@ -196,7 +196,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Color.fromARGB(0xFF, 0x42, 0xA5, 0xF5)),
               ),
             ),
@@ -205,7 +205,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Color.fromARGB(255, 66, 165, 245)),
               ),
             ),
@@ -214,7 +214,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(color: Color.fromRGBO(66, 165, 245, 1.0)),
               ),
             ),
@@ -223,7 +223,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(debugLabel: "测试样式"),
               ),
             ),
@@ -232,7 +232,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.none),
               ),
@@ -241,7 +241,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.lineThrough),
               ),
@@ -250,7 +250,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.overline),
               ),
@@ -259,7 +259,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline),
               ),
@@ -268,7 +268,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationColor: Colors.red),
               ),
@@ -278,7 +278,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationStyle: TextDecorationStyle.dashed),
               ),
@@ -287,7 +287,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationStyle: TextDecorationStyle.dotted),
               ),
@@ -296,7 +296,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationStyle: TextDecorationStyle.double),
               ),
@@ -305,7 +305,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationStyle: TextDecorationStyle.solid),
               ),
@@ -314,7 +314,7 @@ class ExText extends StatelessWidget {
             Container(
               height: 40.0,
               child: Text(
-                "Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(decoration: TextDecoration.underline, decorationStyle: TextDecorationStyle.wavy),
               ),
@@ -325,7 +325,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
               ),
             ),
@@ -334,7 +334,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontFamily: "Sans"),
               ),
@@ -344,7 +344,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontFamily: "monospace"),
               ),
@@ -354,7 +354,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontFamily: "方正楷体"),
               ),
@@ -364,7 +364,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(fontSize: 10.0),
               ),
             ),
@@ -372,7 +372,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(fontSize: 30.0),
               ),
             ),
@@ -382,7 +382,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontStyle: FontStyle.normal),
               ),
@@ -392,7 +392,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
@@ -403,7 +403,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontWeight: FontWeight.normal),
               ),
@@ -413,7 +413,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
@@ -423,7 +423,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 40.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 textScaleFactor: 2.0,
                 style: TextStyle(fontWeight: FontWeight.w100),
               ),
@@ -434,7 +434,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 80.0,
               child: Text(
-                "字体示例 Hello Text\r\n字体示例 Hello Text",
+                "文字示例 Text Sample\r\n文字示例 Text Sample",
                 style: TextStyle(height: 0.5),
               ),
             ),
@@ -443,7 +443,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 80.0,
               child: Text(
-                "字体示例 Hello Text\r\n字体示例 Hello Text",
+                "文字示例 Text Sample\r\n文字示例 Text Sample",
                 style: TextStyle(height: 1.0),
               ),
             ),
@@ -452,7 +452,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 80.0,
               child: Text(
-                "字体示例 Hello Text\r\n字体示例 Hello Text",
+                "文字示例 Text Sample\r\n文字示例 Text Sample",
                 style: TextStyle(height: 1.5),
               ),
             ),
@@ -462,7 +462,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 80.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(letterSpacing: 20.0),
               ),
             ),
@@ -472,7 +472,7 @@ class ExText extends StatelessWidget {
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 80.0,
               child: Text(
-                "字体示例 Hello Text",
+                "文字示例 Text Sample",
                 style: TextStyle(wordSpacing: 20.0),
               ),
             ),
@@ -485,14 +485,14 @@ class ExText extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "字体示例 Hello Text",
+                    "文字示例 Text Sample",
                     style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.alphabetic),
                   ),
                   Baseline(
                     baseline: 6.0,
                     baselineType: TextBaseline.alphabetic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.alphabetic),
                     ),
                   ),
@@ -500,7 +500,7 @@ class ExText extends StatelessWidget {
                     baseline: 24.0,
                     baselineType: TextBaseline.alphabetic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.alphabetic),
                     ),
                   ),
@@ -514,14 +514,14 @@ class ExText extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "字体示例 Hello Text",
+                    "文字示例 Text Sample",
                     style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.ideographic),
                   ),
                   Baseline(
                     baseline: 6.0,
                     baselineType: TextBaseline.ideographic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.ideographic),
                     ),
                   ),
@@ -529,7 +529,7 @@ class ExText extends StatelessWidget {
                     baseline: 24.0,
                     baselineType: TextBaseline.ideographic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.ideographic),
                     ),
                   ),
@@ -544,14 +544,14 @@ class ExText extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "字体示例 Hello Text",
+                    "文字示例 Text Sample",
                     style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.alphabetic),
                   ),
                   Baseline(
                     baseline: 12.0,
                     baselineType: TextBaseline.alphabetic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 6.0, textBaseline: TextBaseline.alphabetic),
                     ),
                   ),
@@ -559,7 +559,7 @@ class ExText extends StatelessWidget {
                     baseline: 12.0,
                     baselineType: TextBaseline.alphabetic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 24.0, textBaseline: TextBaseline.alphabetic),
                     ),
                   ),
@@ -573,14 +573,14 @@ class ExText extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "字体示例 Hello Text",
+                    "文字示例 Text Sample",
                     style: TextStyle(fontSize: 12.0, textBaseline: TextBaseline.ideographic),
                   ),
                   Baseline(
                     baseline: 12.0,
                     baselineType: TextBaseline.ideographic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 6.0, textBaseline: TextBaseline.ideographic),
                     ),
                   ),
@@ -588,7 +588,7 @@ class ExText extends StatelessWidget {
                     baseline: 12.0,
                     baselineType: TextBaseline.ideographic,
                     child: Text(
-                      "字体示例 Hello Text",
+                      "文字示例 Text Sample",
                       style: TextStyle(fontSize: 24.0, textBaseline: TextBaseline.ideographic),
                     ),
                   ),
@@ -604,14 +604,14 @@ class ExText extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Text(
-                      "继承样式 Hello Text",
+                      "继承样式 文字示例 Text Sample",
                     ),
                     Text(
-                      "继承样式 Hello Text",
+                      "继承样式 文字示例 Text Sample",
                       style: TextStyle(fontSize: 12.0),
                     ),
                     Text(
-                      "继承样式 Hello Text",
+                      "继承样式 文字示例 Text Sample",
                       style: TextStyle(color: Colors.blue),
                     ),
                   ],
