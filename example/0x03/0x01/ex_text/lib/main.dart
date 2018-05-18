@@ -65,20 +65,40 @@ class ExText extends StatelessWidget {
               height: 30.0,
               child: Text("文字示例 Text Sample", textAlign: TextAlign.start),
             ),
-            SubLabel("TextAlign.justify"),
-            Container(
-              decoration: BoxDecoration(border: Border.all(width: 1.0)),
-              height: 60.0,
-              child: Text(
-                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample Hello111 Text 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample \r\n文字示例 Text Sample",
-                textAlign: TextAlign.justify,
-              ),
-            ),
             SubLabel("TextAlign.end"),
             Container(
               decoration: BoxDecoration(border: Border.all(width: 1.0)),
               height: 30.0,
               child: Text("文字示例 Text Sample", textAlign: TextAlign.end),
+            ),
+            SubLabel("TextDirection.rtl & TextAlign.start"),
+            Container(
+              decoration: BoxDecoration(border: Border.all(width: 1.0)),
+              height: 30.0,
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.start, textDirection: TextDirection.rtl),
+            ),
+            SubLabel("TextDirection.rtl & TextAlign.end"),
+            Container(
+              decoration: BoxDecoration(border: Border.all(width: 1.0)),
+              height: 30.0,
+              child: Text("文字示例 Text Sample", textAlign: TextAlign.end, textDirection: TextDirection.rtl),
+            ),
+            SubLabel("不指定TextAlign.justify"),
+            Container(
+              decoration: BoxDecoration(border: Border.all(width: 1.0)),
+              height: 80.0,
+              child: Text(
+                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample Hello111 Text 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample \n文字示例 Text Sample",
+              ),
+            ),
+            SubLabel("TextAlign.justify"),
+            Container(
+              decoration: BoxDecoration(border: Border.all(width: 1.0)),
+              height: 80.0,
+              child: Text(
+                "文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample Hello111 Text 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample 文字示例 Text Sample \n文字示例 Text Sample",
+                textAlign: TextAlign.justify,
+              ),
             ),
             Label("文字方向(textDirection)"),
             SubLabel("TextDirection.ltr"),
